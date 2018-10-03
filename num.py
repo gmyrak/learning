@@ -1,3 +1,6 @@
+def nod():
+    return 1
+
 def sqr(n):
      x1 = n
      while True:
