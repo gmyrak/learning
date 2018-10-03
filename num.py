@@ -7,6 +7,10 @@ def nod(a, b):
         return 2
     return 1
 
+def nok(a, b):
+    return a*b//nod(a, b)
+
+
 def sqr(n):
      x1 = n
      while True:
