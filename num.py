@@ -2,6 +2,10 @@ def nod():
     '''Nod funcrion'''
     return 1
 
+def nok(a, b):
+    return a*b//nod(a, b)
+
+
 def sqr(n):
      x1 = n
      while True:
