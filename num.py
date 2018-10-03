@@ -1,4 +1,5 @@
 def nod():
+    '''Nod funcrion'''
     return 1
 
 def sqr(n):
