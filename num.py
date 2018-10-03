@@ -1,5 +1,10 @@
-def nod():
+def nod(a, b):
     '''Nod funcrion'''
+    while a > 0:
+        a, b = b, b%a
+
+    if a > b:
+        return 2
     return 1
 
 def sqr(n):
