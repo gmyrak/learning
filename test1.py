@@ -46,6 +46,7 @@ class TestNum(unittest.TestCase):
         self.assertEqual(num.nod(10, 6), 2)
         self.assertEqual(num.nod(35, 12), 1)
         self.assertEqual(num.nod(100, 7), 1)
+        self.assertEqual(num.nod(85, 10), 5)
 
     def test_expm(self):
         for x, n, m in ():

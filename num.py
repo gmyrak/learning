@@ -1,8 +1,8 @@
 def nod(a, b):
-    '''Nod funcrion'''
     while a > 0:
         a, b = b%a, a
     return b
+
 
 def nok(a, b):
     return a*b//nod(a, b)
