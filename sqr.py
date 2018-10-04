@@ -9,3 +9,4 @@ print('123')
 
 'lllllllllll'
 'ssss'
+'idea'
