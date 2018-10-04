@@ -11,8 +11,6 @@ Delta = 1_000_000
 
 
 for k in range(N, N + Delta):
-    #if k % 100 == 0:
-    #    print(k, '\r', end='' )
     if ferma(k):
         f += 1
         if prime(k):
@@ -26,4 +24,4 @@ print(
 Доля псевдопростых составляет: {}
 '''.format(f, p, f-p, (f-p)/p))
 
-print('\nTime: {} c'.format( round(time.time() - start, 2) ))
+print('\nTime: {} c'.format( round(time.time() - start, 3) ))
