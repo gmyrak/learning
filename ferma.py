@@ -1,5 +1,6 @@
 import time
 from num import *
+'Вывод псевдопростых ферма'
 
 start = time.time()
 
