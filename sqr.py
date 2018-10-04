@@ -6,8 +6,3 @@ print('Add')
 print('Add2---')
 
 print('123')
-
-'lllllllllll'
-'ssss'
-'idea'
-'09:14'

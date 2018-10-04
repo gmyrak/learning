@@ -7,8 +7,8 @@ start = time.time()
 p = 0
 f = 0
 
-N = 1_000_000
-Delta = 2_000_000
+N = 2
+Delta = 2_000
 
 
 for k in range(N, N + Delta):
